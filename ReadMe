@@ -1,29 +1,63 @@
-# **Install my backend with npm i nestify-backend**
-This provide the Basic Structure for your Backend Project.
+# Nestify Backend 
 
-The Project Structure is : 
+Nestify Backend Setup is a package designed to streamline the setup process for backend development projects using Node.js. It automates the creation of a standard directory structure for your backend application, including folders for controllers, data parsers, database setup, middleware, routers, and more.
 
+
+## Features:
+1. Automatically generates a backend directory structure upon installation.
+2. Organizes your backend codebase into logical modules for improved maintainability.
+3. Includes sample files for controllers, data parsers, database schemas, middleware, and routers to help you get started quickly.
+4. Easily customizable to fit the specific requirements of your project.
+
+## Usage
+
+1. **Install Nestify Backend Setup using npm:**
+
+    ```bash
+    npm install nestify-backend
+    ```
+
+2. **Upon installation, the package will automatically create a backend directory structure in your project root.**
+
+3. **Start building your backend application by adding your logic to the generated files in the backend folder.**
+
+### Directory Structure:
+
+```plaintext
 backend/
-└── controllers/
-    └── controller.js 
-└── Data_parser/
-    └── data_parser.js
-└── DataBase/
-    ├── database.js
-    └── Schema/
-        └── userschema.js
-└── middlewares/
-    └── middleware.js
-└── routers/
-    └── router.js
-└── index.js
-└── .env
+├── controllers/
+├── Data_parser/
+├── DataBase/
+│   ├── database.js
+│   └── Schema/
+│       └── userschema.js
+├── middleware/
+├── router/
+├── index.js
+├── .env
 └── .package.json
+```
 
-HOW TO USE : Run commands 
 
-cd backend
-npm install
-npm run dev
+## How to Use
+
+To use this project structure, follow these steps:
+
+1. Navigate to the `backend` directory:
+    ```bash
+    cd backend
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+That's it! You've successfully set up and run your backend project.
 
 
