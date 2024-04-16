@@ -57,6 +57,10 @@ const files = [
     {
         path: 'backend/ReadMe',
         content: `${readFile("readme")}`
+    },
+    {
+        path: 'backend/.gitignore',
+        content: `${readFile("gitignore")}`
     }
 
 ];

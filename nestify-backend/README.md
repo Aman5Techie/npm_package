@@ -2,24 +2,30 @@
 
 Nestify Backend Setup is a package designed to streamline the setup process for backend development projects using Node.js. It automates the creation of a standard directory structure for your backend application, including folders for controllers, data parsers, database setup, middleware, routers, and more.
 
-## Project Structure
 
-backend/ </br>
-├── controllers/ </br>
-│    &nbsp;  &nbsp; └── controller.js </br>
-├── Data_parser/ </br>
-│    &nbsp;  &nbsp; └── data_parser.js </br>
-├── DataBase/ </br>
-│   &nbsp;  &nbsp;  ├── database.js </br>
-│   &nbsp;  &nbsp;  └── Schema/ </br>
-│    &nbsp;  &nbsp;  &nbsp;  &nbsp; └── userschema.js </br>
-├── middlewares/ </br>
-│    &nbsp;  &nbsp; └── middleware.js </br>
-├── routers/ </br>
-│    &nbsp;  &nbsp; └── router.js </br>
-├── index.js </br>
-├── .env </br>
-└── package.json </br>
+## Features:
+1. Automatically generates a backend directory structure upon installation.
+2. Organizes your backend codebase into logical modules for improved maintainability.
+3. Includes sample files for controllers, data parsers, database schemas, middleware, and routers to help you get started quickly.
+4. Easily customizable to fit the specific requirements of your project.
+
+
+### Directory Structure:
+
+```plaintext
+backend/
+├── controllers/
+├── Data_parser/
+├── DataBase/
+│   ├── database.js
+│   └── Schema/
+│       └── userschema.js
+├── middleware/
+├── router/
+├── index.js
+├── .env
+└── .package.json
+```
 
 
 
