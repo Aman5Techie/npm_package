@@ -1,10 +1,13 @@
 {
   "name": "nestify-backend",
-  "version": "1.16.0",
+  "version": "2.0.0",
   "description": "Provide Backend Project Structure",
   "scripts": {
     "postinstall": "node setup.js"
   },
   "author": "Aman verma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nestify-backend": "^1.17.0"
+  }
 }

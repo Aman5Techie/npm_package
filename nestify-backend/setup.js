@@ -43,12 +43,16 @@ const files = [
         content: `${readFile("router")}`
     },
     {
+        path: 'backend/routers/user.js',
+        content: `${readFile("user")}`
+    },
+    {
         path: 'backend/index.js',
         content: `${readFile("index")}`
     },
     {
         path: 'backend/.env',
-        content: `PORT = 3000 \nMONGODB_URI = "mongodb://localhost:27017/" `
+        content: `PORT = 3000 \nMONGODB_URI = "mongodb://localhost:27017/"\n JWT_KEY = "Thanku for Installing" `
     },
     {
         path: 'backend/package.json',
